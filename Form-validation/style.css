@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto';
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100vh;
+    background-size: cover;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+    color: black;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    display: block;
+    border: 0px;
+    border-bottom: 2px solid gray;
+    outline: 0px;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: aliceblue;
+    border-width: 0px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+}
